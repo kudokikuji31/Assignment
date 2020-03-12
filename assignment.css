@@ -1,0 +1,79 @@
+p{
+    font-size: 45px;
+    text-align: center;
+}
+.topic{
+    margin: 10px;
+    background-color: #FFFFFF;
+    color: #4CAF50;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+#topbar{
+    overflow: hidden;
+    background-color: rgb(6, 1, 12);
+    
+}
+#topbar a{
+    display: block;
+    float: left;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#topbar a:hover{
+    background-color: #DDD;
+    color: #000;
+}
+#topbar a.active{
+    background-color: deepskyblue;
+    color: #FFF;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #9A8CE5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  body{
+      background-color: #9A8CE5 ;
+  }
